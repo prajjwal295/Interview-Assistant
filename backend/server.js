@@ -9,7 +9,7 @@ const database = require("./config/database");
 database.dbConnect();
 
 const corsOptions = {
-  origin: ["http://localhost:3000", "https://organizien.onrender.com"],
+  origin: ["http://localhost:3000", "https://form-submission-tau.vercel.app"],
   credentials: true,
 };
 
