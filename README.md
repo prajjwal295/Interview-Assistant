@@ -38,6 +38,7 @@ Port = 4000
 DATABASE_URL = "mongodb+srv://mishraprajjwal295:prajjwal@cluster0.zyobb4v.mongodb.net/"
 JWT_SECRET = "prajjwal"
 ADMIN_EMAIL = "mishraprajjwal128@gmail.com"
+ADMIN_PASSWORD = "Prajjwal@@1"
 ```
 
 ### 2 . Frontend Configuration:
