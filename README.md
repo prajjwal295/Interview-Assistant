@@ -67,15 +67,19 @@ npm start
 
 Open your browser and go to http://localhost:3000.
 
+
 ## Additional Features
 
-### Form Validation:
+##### Form Validation:
 Ensure all required fields are filled before submitting.
-### JWT Authentication:
+
+#####  JWT Authentication:
 Secure routes using JWT tokens.
-### Admin Privileges:
+
+##### Admin Privileges:
 Special access for admin users to manage forms.
-### Responsive Design:
+
+##### Responsive Design:
 Tailwind CSS for a responsive and modern UI.
 
 
