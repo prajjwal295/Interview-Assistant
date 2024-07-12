@@ -27,7 +27,7 @@ const Login = () => {
     if (data) {
       dispatch(setUser(data.user));
       dispatch(setToken(data.token));
-      navigate("/form");
+      navigate("/");
     }
   };
 
