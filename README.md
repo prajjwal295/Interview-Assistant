@@ -110,13 +110,14 @@ MongoDB is chosen for its flexibility and scalability in handling form data.
 
 ### 5 . User Roles:
 
-Users are either regular users or admin users. Admin users have additional privileges to view all forms.
-It is assumed that the isAdmin field in the JWT payload indicates whether a user is an admin.
+To differentiate between regular users and admin users in the Form Management System, an `isAdmin` field is included in the user schema in MongoDB. This boolean field indicates if a user is an admin. During authentication, the `isAdmin` value is included in the JWT payload. Middleware functions (`auth` and `isAdmin`) protect routes, ensuring only authenticated users or admins can access specific endpoints. On the frontend, based on the `isAdmin` value in the user state, different components or options are rendered. Admin users can view all forms, while regular users have the option to create new forms. This approach ensures secure and distinct access levels for different user types.
 
 ### 6. Data Validity:
 
 Basic validation is performed on forms to ensure required fields are not empty. Further validation can be added as needed.
 It is assumed that the JWT token provided in requests is valid and correctly identifies the user.
+
+
 
 
 
