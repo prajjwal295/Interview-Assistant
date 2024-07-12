@@ -9,7 +9,7 @@ Form Management System is a MERN stack application that allows users to sign up,
 
 ### 1 . Clone the repository: 
  ```bash
-   git clone [<repository_url>](https://github.com/prajjwal295/organizien.git)
+   git clone https://github.com/prajjwal295/organizien.git
    cd organizien
 ```
 
